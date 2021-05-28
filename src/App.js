@@ -127,6 +127,7 @@ class App extends Component {
                 this.setState({
                   mode: 'welcome',
                   contents: _contents,
+                  selected_content_id: 0,
                 });
                 alert('deleted!');
               }
